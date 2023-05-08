@@ -6,7 +6,7 @@ output_file = fopen('floating_point_output.txt','w');
 
 input_file1 = fopen('floating_point_input.txt','a');        %append the file
 output_file1 = fopen('floating_point_output.txt','a');
-Array_no = [43.5, -323, 72.0625, -585, 777.75, 1028, 4096, 1, 0.8125, 10, 20, 30.5, 4444, -67.8, -67.8, 100, 200, 3, 174, 174, 135, 135, 23, 89, 444, 89, 34, 9000, 2222, 8999, 101, 203, 2, 3, 4, 7, 8 , 8.8, 9.8, 9090, 23, 34, 56, 78, 1009, 2023, 2024, 2005, 2002, 2001];  %create an array with 100 numbers
+Array_no = [43.5, -323, 72.0625, -585, 777.75, 1028, 4096, 1, 0.8125, 10, 20, 30.5, 4444, -67.8, -67.8, 100, 200, 3, 174, 174, 135, 135, 23, 89, 444, 89, 34, -9000, 2222, 8999, 101, -203, 2, 3, 4, 7, 8 , 8.8, 9.8, 9090, -23, 34, 56, 78, 1009, 2023, 2024, 2005, 2002, 2001, 201];  %create an array with 100 numbers
 
 %normalize the first and the second element and write it in the input file
 %add them together and normalize to write it in the output file
